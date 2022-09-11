@@ -20,11 +20,5 @@ public class AddressBook {
 			System.out.println("");
 		});
 	}
-	public static void main(String[] args) {
-		System.out.println("Welcome to Address Book Program");
-		AddressBook addressBook = new AddressBook();
-		addressBook.addContact("fname", "Lname", "Pune", "Pune", "Maharashtra", "411111", "+91 9999999999", "address@book.com");
-		addressBook.showContacts();
-	}
-
 }
+	
